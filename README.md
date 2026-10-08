@@ -11,7 +11,7 @@ Sirve, por ejemplo, para correr el CLI de Kafka dentro de un contenedor y reprod
 Requiere Java instalado.
 
 ```bash
-wget https://github.com/jbaris/kafka-slim/raw/main/kafka-cli-3.9.1-slim.tgz
+wget https://github.com/jbaris/kafka-cli-slim/raw/main/kafka-cli-3.9.1-slim.tgz
 tar -xzf kafka-cli-3.9.1-slim.tgz
 cd kafka-cli/bin/
 echo "security.protocol=${CAMEL_COMPONENT_KAFKA_SECURITY_PROTOCOL}" > client.properties
